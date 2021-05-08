@@ -43,14 +43,14 @@ const users = [
     }
     ];
 
-    function addUserSkill( name, skill ) {
+    function editUser( name, newName ) {
         for (var i in users) {
           if (users[i].name == name) {
-             users[i].skills.push(skill);
+             users[i].name = newName;
              break;
           }
         }
      }
 
-    addUserSkill("John", "react JS");
+    editUser('John','santosh'); //john replaced with santosh
     console.table(users)
