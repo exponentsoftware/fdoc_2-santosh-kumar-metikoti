@@ -12,6 +12,8 @@ const countries = [
   'KENYA'
 ]
 
+
+
 const arr = [];
 
 for (var i=0;i<countries.length;i++){
